@@ -2,3 +2,12 @@
 Curso de servicios en windows
 ----------------------------
 https://www.youtube.com/watch?v=b60b5vmXSJ4
+
+
+cd Windows\Microsoft.NET\Framework\v4.0.30319\
+
+InstallUtil.exe d:\Miservicio\servicio.exe
+
+
+Servicios
+https://docs.microsoft.com/en-us/dotnet/api/system.timers.elapsedeventhandler?view=netframework-4.8

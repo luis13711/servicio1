@@ -17,12 +17,9 @@ namespace servicio1
 #if (!DEBUG)
 
 #else
-            ServiceBase[] ServicesToRun;
-            ServicesToRun = new ServiceBase[]
-            {
-                new Service1()
-            };
-            ServiceBase.Run(ServicesToRun);
+            Service1 Servicio1 = new Service1();
+            Servicio1.init();
+            System.Threading.Thread.Sleep(System.Threading.Timeout.Infinite);
 #endif
 
 

@@ -1,9 +1,0 @@
-C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\servicios\servicio1\servicio1\bin\Debug\servicio1.exe.config
-C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\servicios\servicio1\servicio1\bin\Debug\servicio1.exe
-C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\servicios\servicio1\servicio1\bin\Debug\servicio1.pdb
-C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\servicios\servicio1\servicio1\obj\Debug\servicio1.csprojAssemblyReference.cache
-C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\servicios\servicio1\servicio1\obj\Debug\servicio1.Service1.resources
-C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\servicios\servicio1\servicio1\obj\Debug\servicio1.csproj.GenerateResource.cache
-C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\servicios\servicio1\servicio1\obj\Debug\servicio1.csproj.CoreCompileInputs.cache
-C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\servicios\servicio1\servicio1\obj\Debug\servicio1.exe
-C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\servicios\servicio1\servicio1\obj\Debug\servicio1.pdb
