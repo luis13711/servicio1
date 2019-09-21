@@ -8,6 +8,7 @@ using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Windows.Forms;
 
 namespace servicio1
 {
@@ -35,7 +36,32 @@ namespace servicio1
 
         private static void OnTimedEvent(Object source, System.Timers.ElapsedEventArgs e)
         {
-            Console.WriteLine("The Elapsed event was raised at {0}", e.SignalTime);
+            try
+            {
+                //Console.WriteLine("The Elapsed event was raised at {0}", e.SignalTime);
+                string textopath = Application.StartupPath + "\\tramas.txt";
+                string[] lines = { "First line", "Second line", "Third line" };
+                // WriteAllLines creates a file, writes a collection of strings to the file,
+                // and then closes the file.  You do NOT need to call Flush() or Close().
+                //System.IO.File.WriteAllLines(textopath, lines);
+                using (System.IO.StreamWriter file = new System.IO.StreamWriter(textopath))
+                {
+                    foreach (string line in lines)
+                    {
+                        // If the line doesn't contain the word 'Second', write the line to the file.
+                        //if (!line.Contains("Second"))
+                        //{
+                            file.WriteLine(line);
+                        //}
+                    }
+                }
+
+            }
+            catch(Exception ex)
+            {
+                string textopath = Path.Combine(Application.StartupPath, "\\tramas.txt");
+            }
+            
         }
 
         private void hello(object sender, EventArgs e)
