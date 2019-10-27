@@ -59,7 +59,11 @@ namespace servicio1
             }
             catch(Exception ex)
             {
-                string textopath = Path.Combine(Application.StartupPath, "\\tramas.txt");
+                string textolog = Application.StartupPath + "\\Log.txt";
+                using (System.IO.StreamWriter file = new System.IO.StreamWriter(textolog))
+                {
+                    file.WriteLine(textolog);
+                }       
             }
             
         }
