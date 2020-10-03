@@ -14,21 +14,22 @@ namespace servicio1
         /// </summary>
         public static void Main()
         {
-            //#if (!DEBUG)
+            //para realizar pruebas
+#if (!DEBUG)
 
-            //#else
-            //            Service1 Servicio1 = new Service1();
-            //            Servicio1.init();
-            //            System.Threading.Thread.Sleep(System.Threading.Timeout.Infinite);
-            //#endif
+#else
+            Service1 Servicio1 = new Service1();
+            Servicio1.init();
+            System.Threading.Thread.Sleep(System.Threading.Timeout.Infinite);
+#endif
 
-
-            ServiceBase[] ServicesToRun;
-            ServicesToRun = new ServiceBase[]
-            {
-                new Service1()
-            };
-            ServiceBase.Run(ServicesToRun);
+            //para usar servicio
+            //ServiceBase[] ServicesToRun;
+            //ServicesToRun = new ServiceBase[]
+            //{
+            //    new Service1()
+            //};
+            //ServiceBase.Run(ServicesToRun);
 
         }
     }

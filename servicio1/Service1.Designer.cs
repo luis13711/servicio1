@@ -28,14 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            // 
-            // timer1
-            // 
-            this.timer1.Enabled = false;
-            this.timer1.Interval = 1000;
-            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
             // 
             // Service1
             // 
@@ -44,7 +36,5 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Timer timer1;
     }
 }

@@ -1,0 +1,9 @@
+C:\Users\Bus209\Documents\htdocs\servicio1\servicio1\bin\Debug\servicio1.exe.config
+C:\Users\Bus209\Documents\htdocs\servicio1\servicio1\bin\Debug\servicio1.exe
+C:\Users\Bus209\Documents\htdocs\servicio1\servicio1\bin\Debug\servicio1.pdb
+C:\Users\Bus209\Documents\htdocs\servicio1\servicio1\obj\Debug\servicio1.csprojAssemblyReference.cache
+C:\Users\Bus209\Documents\htdocs\servicio1\servicio1\obj\Debug\servicio1.ProjectInstaller.resources
+C:\Users\Bus209\Documents\htdocs\servicio1\servicio1\obj\Debug\servicio1.Service1.resources
+C:\Users\Bus209\Documents\htdocs\servicio1\servicio1\obj\Debug\servicio1.csproj.GenerateResource.cache
+C:\Users\Bus209\Documents\htdocs\servicio1\servicio1\obj\Debug\servicio1.exe
+C:\Users\Bus209\Documents\htdocs\servicio1\servicio1\obj\Debug\servicio1.pdb
